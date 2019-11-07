@@ -198,7 +198,7 @@ public class HemxvcCoolViz implements Visualizer {
             }
         }
         
-//        vizPane.setStyle("-fx-background-color: hsb(" + magnitudes[0]*-6.0 + 
-//                ", 0%, 100%)" );
+        vizPane.setStyle("-fx-background-color: hsb(" + magnitudes[0]*-6 + 
+                ", " + Math.abs(phases[0])*15 + "%, 100%)" );
     }
 }
