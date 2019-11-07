@@ -199,6 +199,6 @@ public class HemxvcCoolViz implements Visualizer {
         }
         
 //        vizPane.setStyle("-fx-background-color: hsb(" + magnitudes[0]*-6.0 + 
-//                ", 10%, 100%)" );
+//                ", 0%, 100%)" );
     }
 }
