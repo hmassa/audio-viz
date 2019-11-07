@@ -217,15 +217,15 @@ public class PlayerController implements Initializable {
             }
         }
         else {
-//            Alert alert = new Alert(AlertType.INFORMATION);
-//            alert.setTitle("Information Dialog");
-//            alert.setHeaderText("There was an error playing the song.");
-//            alert.setContentText("You must select a song first before I can play it for you.");
-//
-//            alert.showAndWait();
+            Alert alert = new Alert(AlertType.INFORMATION);
+            alert.setTitle("Information Dialog");
+            alert.setHeaderText("There was an error playing the song.");
+            alert.setContentText("You must select a song first before I can play it for you.");
+
+            alert.showAndWait();
         
-            File file = new File("/Users/flipp/Music/band_of_horses-everything_all_the_time-320k/band_of_horses-everything_all_the_time-320k/sp0690-04_the_funeral.mp3");
-            openMedia(file);
+//            File file = new File("/Users/flipp/Music/band_of_horses-everything_all_the_time-320k/band_of_horses-everything_all_the_time-320k/sp0690-04_the_funeral.mp3");
+//            openMedia(file);
         }
 
     }

@@ -178,7 +178,7 @@ public class HemxvcCoolViz implements Visualizer {
         for(int i = 0; i < m; i++){
             int col = (int)i/numRows;
             int row = i%numRows;
-            if((((magnitudes[i]*-6.0)%360)/360) > 0){
+            if((((magnitudes[i]*-6.0)%360)) > 0){
                 boxesL[numRows-1-row][col].setFill(Color.hsb(magnitudes[i]*-6.0, 1.0, 1.0));
                 boxesR[numRows-1-row][numRows-1-col].setFill(Color.hsb(magnitudes[i]*-6.0, 1.0, 1.0));
             }
